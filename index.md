@@ -52,6 +52,17 @@ Pulp is free and open-source, and we invite you to [join us on GitHub](https://g
                     <li>Protect content with certificates to be used by yum/dnf clients</li>
                 </ul>
             </div>
+            <div class="tab-pane fade active in" id="deb">
+                <p>Manage and deliver DEB content</p>
+                <ul>
+                    <li>Supports DEB packages and metadata</li>
+                    <li>Sync remote repository content and metadata locally</li>
+                    <li>Upload your own content</li>
+                    <li>Publish content to one or more repositories</li>
+                    <li>Published content is installable with apt-get</li>
+                    <li>Sign repository metadata </li>
+                </ul>
+            </div>
             <div class="tab-pane fade" id="python">
                 <p>Manage and deliver Python content</p>
                 <ul>
